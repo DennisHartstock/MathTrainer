@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Math Trainer</string>
+    <string name="hint_et_answer">Input right answer</string>
+    <string name="bt_check">Check</string>
 </resources>
