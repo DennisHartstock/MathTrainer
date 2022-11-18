@@ -30,6 +30,22 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
     private fun buildExercise() {
         tvExample.setTextColor(Color.RED)
         firstArg = Random.nextInt(2) + 1
@@ -45,7 +61,7 @@ class MainActivity : AppCompatActivity() {
         val result = firstArg * secondArg
         if (myResult == result) {
             tvExample.setTextColor(Color.GREEN)
-//            TimeUnit.SECONDS.sleep(1)
+            Thread.sleep(1000)
             etAnswer.text = null
             buildExercise()
         }
