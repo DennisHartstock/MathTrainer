@@ -2,6 +2,7 @@
     <string name="app_name">Math Trainer</string>
     <string name="hint_et_answer">Input right answer</string>
     <string name="bt_check">Check</string>
+    <string name="logo">CommCode</string>
     <string name="label">Choose the math operation you would like to train</string>
     <string name="multiplication">Multiplication</string>
 </resources>
